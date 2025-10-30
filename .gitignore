@@ -1,0 +1,43 @@
+# Java build artifacts
+target/
+*.class
+*.war
+*.ear
+
+# Keep the main JAR
+!tavernerPOS.jar
+
+# Maven
+.mvn/
+.m2/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Derby database files
+database/derby-single/
+database/derby-server/posdb/
+derby.log
+
+# Application config backups
+*.bak
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backups
+*.old
+
+# Temporary files
+*.tmp
+*.temp
